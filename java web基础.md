@@ -5,7 +5,8 @@ Servlet是运行在Web服务器或应用服务器上的程序,它是作为来自
 
 ### 生命周期
 
-![001f4cfd38894718afe46dbbcf0fdd1e](C:\Users\28032\Desktop\笔记\图片\001f4cfd38894718afe46dbbcf0fdd1e.png)
+![image](https://github.com/tianqing191/-Java-/assets/114899974/48291ae2-65a6-41fb-85d3-1262f12530cf)
+
 
 ```
 public class IndexServlet extends HttpServlet {
@@ -26,7 +27,8 @@ public class IndexServlet extends HttpServlet {
 }
 ```
 
-![1f63123993fd4bcca4e083b394bd1efa](C:\Users\28032\Desktop\笔记\图片\1f63123993fd4bcca4e083b394bd1efa.png)
+![image](https://github.com/tianqing191/-Java-/assets/114899974/0ce6ab1a-1181-4908-afe6-c0aa9a1b4baa)
+
 
 ### Servlet路由
 
@@ -249,7 +251,8 @@ try (PreparedStatement preparedStatement = connection.prepareStatement(safesql))
 
 ## Filter 过滤器
 
-![fc683fb3d1be4eadf485610b54e2bb23](C:\Users\28032\Desktop\笔记\图片\fc683fb3d1be4eadf485610b54e2bb23.png)
+![image](https://github.com/tianqing191/-Java-/assets/114899974/3a545171-e96e-47e4-9cd1-7c52d62bb03e)
+
 
 ### 解释
 
@@ -304,9 +307,11 @@ destroy():
 @WebFilter("/xss")
 ```
 
-![image-20240228093653862](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240228093653862.png)
+![image](https://github.com/tianqing191/-Java-/assets/114899974/77d45090-8407-42ab-bc62-c0fd4fa8ecc7)
 
-![image-20240228093710179](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240228093710179.png)
+
+![image](https://github.com/tianqing191/-Java-/assets/114899974/2f4c754b-8284-4f26-ad4e-93cdafbcfa2f)
+
 
 ### Filter过滤器实现
 
@@ -413,19 +418,22 @@ Java反射(`Reflection`)是Java非常重要的动态特性，通过使用反射�
 
 Java 反射机制原理示意图：
 
-![20210122163639-f253b862-5c8c-1](C:\Users\28032\Desktop\笔记\图片\20210122163639-f253b862-5c8c-1.png)
+![image](https://github.com/tianqing191/-Java-/assets/114899974/02d19ca7-6175-4f14-915a-79c89bd65c70)
 
-![dcec8416e6c84734945895ce7562a672](C:\Users\28032\Desktop\笔记\图片\dcec8416e6c84734945895ce7562a672.png)
+
+![image](https://github.com/tianqing191/-Java-/assets/114899974/2e9ca085-ee82-4b5d-92f8-e8424cc1fcea)
 
 #### 反射组成相关的类
 
 反射机制相关操作一般位于java.lang.reflect包中
 
-![20210122163927-56b70fca-5c8d-1](C:\Users\28032\Desktop\笔记\图片\20210122163927-56b70fca-5c8d-1.png)
+![image](https://github.com/tianqing191/-Java-/assets/114899974/918e86a9-68c3-4492-afb5-b8949883ede6)
+
 
 #### java 反射的安全问题
 
-![96a028501adb73497d91398929683b8b](C:\Users\28032\Desktop\笔记\图片\96a028501adb73497d91398929683b8b.png)
+![image](https://github.com/tianqing191/-Java-/assets/114899974/3a946f4d-6d34-4f29-9ad1-1e416dca2e47)
+
 
 ### Java-反射-Class对象类获取
 
@@ -472,7 +480,8 @@ public class Users {
 
 ```
 
-![image-20240304162608914](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240304162608914.png)
+![image](https://github.com/tianqing191/-Java-/assets/114899974/73ce4ad3-fc6d-44a8-9c55-9a818bfd0ea3)
+
 
 1. ##### 根据全限定类名：Class.forName(“全路径类名”)
 
@@ -512,11 +521,8 @@ public class Test  {
 
 ```
 
-![image-20240304162010023](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240304162010023.png)
 
 #### Java-反射-Field成员变量类获取
-
-![bed278c84d99c9782b366b8ea87b5901](C:\Users\28032\Desktop\笔记\图片\bed278c84d99c9782b366b8ea87b5901.png)
 
 - #### 获取所有公共(public)成员变量对象的数组 Field [] getFields
 
@@ -541,9 +547,6 @@ public class Test  {
 
 ```
 
-![image-20240304162656890](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240304162656890.png)
-
-![image-20240304162713209](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240304162713209.png)
 
 ------
 
@@ -570,10 +573,6 @@ public class Test  {
 
 ```
 
-![image-20240304163312157](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240304163312157.png)
-
-![image-20240304163322429](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240304163322429.png)
-
 - #### 获取所有公共(public)单个成员变量对象 Field getField()
 
   ```
@@ -590,10 +589,6 @@ public class Test  {
   }
   
   ```
-
-![image-20240304184212784](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240304184212784.png)
-
-![image-20240304184236510](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240304184236510.png)
 
 - #### 获取所有(public,private,protected)单个成员变量对象 Field getDeclaredField()
 
@@ -612,17 +607,12 @@ public class GetField {
 
 ```
 
-![image-20240304184423047](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240304184423047.png)
-
-![image-20240304184434405](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240304184434405.png)
-
 ------
 
 
 
 #### Java-反射-Constructor构造方法获取
 
-![5fcd7dc5a1961a27bbf5de3bd9885a9d](C:\Users\28032\Desktop\笔记\图片\5fcd7dc5a1961a27bbf5de3bd9885a9d.png)
 
 - #### 获取所有公有**public**的构造方法对象数组 Constructor [] getConstructors
 
@@ -645,7 +635,6 @@ public class GetField {
 
   
 
-![image-20240305094203465](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240305094203465.png)
 
 - #### 获取所有 **public**,private,protected 的构造方法对象数组 Constructor [] getDeclaredConstructors
 
@@ -665,7 +654,6 @@ public class GetConstructor {
 }
 ```
 
-![image-20240305094542188](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240305094542188.png)
 
 - #### 获取单个公有**public**的构造方法对象 Constructor [] getConstructor
 
@@ -685,8 +673,6 @@ public class GetConstructor {
 }
 
 ```
-
-![image-20240305095052998](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240305095052998.png)
 
 - #### 获取单个所有,**public**,private,protected  的构造方法对象 Constructor [] getDeclaredConstructor
 
@@ -709,7 +695,6 @@ public class GetConstructor {
 
   
 
-![image-20240305095231684](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240305095231684.png)
 
 - #### 对构造方法进行操作
 
@@ -744,11 +729,9 @@ public class GetConstructor {
 
 ```
 
-![image-20240305100239318](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240305100239318.png)
 
 #### java-反射-Method成员方法类获取
 
-![67f9ad7075c0fe380b110d7b15a1bcfa](C:\Users\28032\Desktop\笔记\图片\67f9ad7075c0fe380b110d7b15a1bcfa.png)
 
 - #### ·获取所有公共 public 成员方法对象的数组 包括继承的 Method [] getMethods() 
 
@@ -769,7 +752,6 @@ public class GetConstructor {
   
   ```
 
-  ![image-20240305131356777](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240305131356777.png)
 
 - ##### 获取所有 public private protected 成员方法对象的数组 不包括继承的 Method [] getDeclaredMethods
 
@@ -790,7 +772,6 @@ public class GetConstructor {
   
   ```
 
-![image-20240305131641308](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240305131641308.png)
 
 - 获取单个公有 public 成员方法对象的方法
 
@@ -811,8 +792,6 @@ public class GetMethod {
 
 ```
 
-![image-20240305132802946](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240305132802946.png)
-
 - #### 获取单个 public private protected 成员方法对象的方法
 
   ```
@@ -832,7 +811,6 @@ public class GetMethod {
   
   ```
 
-![image-20240305133022989](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240305133022989.png)
 
 - #### 执行成员方法
 
@@ -857,7 +835,6 @@ public class GetMethod {
 
 ```
 
-![image-20240305134905100](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240305134905100.png)
 
 ### Java-反射-不安全命令执行
 
@@ -885,7 +862,6 @@ public class RuntimeExec {
 
 ```
 
-![image-20240305134558031](C:\Users\28032\AppData\Roaming\Typora\typora-user-images\image-20240305134558031.png)
 
 ------
 
